@@ -10,7 +10,7 @@ class TestTool extends Tool {
   async _call(input) {
     // Your tool's functionality goes here
     try {
-      print(input);
+      console.log(input);
       return 'As the sun set over the horizon, the sky turned a brilliant shade of orange, casting a warm glow over the tranquil lake.';
     } catch (error) {
       return 'I don\'t know how to do that.';
