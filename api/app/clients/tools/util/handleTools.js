@@ -13,6 +13,7 @@ const {
   WolframAlphaAPI,
   OpenAICreateImage,
   StableDiffusionAPI,
+  TestTool,
   // Structured Tools
   DALLE3,
   E2BTools,
@@ -164,6 +165,7 @@ const loadTools = async ({
     wolfram: functions ? StructuredWolfram : WolframAlphaAPI,
     'dall-e': OpenAICreateImage,
     'stable-diffusion': functions ? StructuredSD : StableDiffusionAPI,
+    'test-tool': TestTool,
     'azure-ai-search': functions ? StructuredACS : AzureAISearch,
     CodeBrew: CodeBrew,
     traversaal_search: TraversaalSearch,

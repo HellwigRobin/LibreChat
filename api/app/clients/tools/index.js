@@ -5,6 +5,7 @@ const WolframAlphaAPI = require('./Wolfram');
 const AzureAiSearch = require('./AzureAiSearch');
 const OpenAICreateImage = require('./DALL-E');
 const StableDiffusionAPI = require('./StableDiffusion');
+const TestTool = require('./TestTool');
 const SelfReflectionTool = require('./SelfReflection');
 
 // Structured Tools
@@ -29,6 +30,7 @@ module.exports = {
   WolframAlphaAPI,
   OpenAICreateImage,
   StableDiffusionAPI,
+  TestTool,
   SelfReflectionTool,
   // Structured Tools
   DALLE3,

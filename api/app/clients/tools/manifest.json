@@ -13,6 +13,14 @@
     ]
   },
   {
+    "name": "Test Tool",
+    "pluginKey": "test-tool",
+    "description": "Execute this plugin if the user requests a random sentence to be returned.",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Logo-pwc.png/626px-Logo-pwc.png",
+    "isAuthRequired": "false",
+    "authConfig": []
+  },
+  {
     "name": "Google",
     "pluginKey": "google",
     "description": "Use Google Search to find information about the weather, news, sports, and more.",
